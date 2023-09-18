@@ -19,6 +19,8 @@ intents:
   - migrane
   - cluster_headache
   - tension_headache
+  - frequent_urination
+  - weight_loss
 
 actions:
   - action_new_sym
@@ -40,8 +42,16 @@ actions:
   - utter_migrane
   - utter_tension_headache
   - utter_cluster_headache
+  - utter_frequent_urination
+  - utter_weight_loss
 
 responses:
+  utter_frequent_urination:
+    - text: "I get it, This might be due to Diabetes"
+
+  utter_weight_loss:
+    - text: "Increase your diet by eating food which is rich in protein, carbohydrates and Vitamin and Do some workout along with that ,Weight loss even after eating well might be due to body is unable to process the glucose content, can occur in chronic diseases like Diabetes"
+
   utter_greet:
     - text: "Hey! I am your medical assistant. How can i help you"
 

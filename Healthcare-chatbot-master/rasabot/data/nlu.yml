@@ -17,6 +17,21 @@ nlu:
       - goodevening
       - good afternoon
 
+  - intent: frequent_urination
+    examples: |
+      - I have problem in Urination
+      - urine
+      - urinary bladder
+      - urine problem
+
+  - intent: weight_loss
+    examples: |
+      - I am having weight loss
+      - weight problems
+      - weight loss
+      - weight decreasing
+      - weight reduce
+ 
   - intent: goodbye
     examples: |
       - cu
