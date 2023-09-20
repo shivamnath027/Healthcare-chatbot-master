@@ -1,0 +1,116 @@
+.fixed-panel {
+  min-height: 400px;
+  max-height: 400px;
+  background-color: #19313c;
+  color: white;
+  overflow: auto;
+}
+
+.media-list {
+  overflow: auto;
+  clear: both;
+  display: table;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 6px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-info {
+  border-color: #0c2735;
+}
+
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #0c2735;
+  border-color: #0c2735;
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #0c2735;
+  border-top: 1px solid #0c2735;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+body {
+  background: #3a5a63;
+  background: linear-gradient(to bottom, #3a5a63, #19313c);
+  background-attachment: fixed;
+}
+
+#chatbox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+#userInput {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#textInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#buttonInput {
+  padding: 10px 20px;
+  background-color: #0c2735;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#buttonInput:hover {
+  background-color: #19313c;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+.healthcare_heading {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: azure;
+  text-align: center;
+  font-family: 'CustomFont', Arial, sans-serif; 
+}
+
+.text-box {
+  background-color: #cccccc; 
+  border-radius: 10px; 
+  padding: 10px; 
+  display: inline-block; 
+}
+
+.chat-text-box {
+  background-color: #1afb99;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}

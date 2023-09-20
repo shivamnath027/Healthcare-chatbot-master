@@ -1,0 +1,208 @@
+version: "3.1"
+
+nlu:
+  - intent: constipation_1_no_stool
+    examples: |
+      - I'm not having bowel movement
+      - I think i'm constipated
+      - I think I have constipation
+      - I'm not able to pass stool
+      - no bowel movement
+      - no bowel
+
+  - intent: constipation_2_hydrating_confirm
+    examples: |
+      - yes i have been hydrating
+      - yes i have been drinking water
+      - yes i drank enough water
+
+  - intent: constipation_3_bowel_reconfirm
+    examples: |
+      - No i haven't had bowel movement in that time
+      - No i havent had bowel movement since yesterday
+      - No i havent had bowel movement
+      - No i've had no bowel movement
+
+  - intent: diarrhea_1_watery_stool
+    examples: |
+      - I am having watery stool
+      - I am having too much bowel movement
+      - I'm having trouble in digestion
+      - I have digestion problem
+      - watery stool
+      - loose stool
+      - loose motion
+
+  - intent: diarrhea_2_excess_bowel
+    examples: |
+      - Yes, i've had more than 2 bowel movements in the past 6 hours
+      - Yes, I have had that
+
+  - intent: diarrhea_3_growling_abdomen
+    examples: |
+      - yes i have growling in my stomach
+      - yes i have growling
+      - yes my stomach is growling
+      - yes im having stomach pain
+      - my stomach is churning
+
+  - intent: frequent_urination
+    examples: |
+      - Yes i'm having very frequent urination
+      - Yes, more than normal
+      - I'm urinating more frequently
+
+  - intent: weight_loss
+    examples: |
+      - I am having weight loss
+      - weight problems
+      - weight loss
+      - weight decreasing
+      - weight reduce
+
+
+  - intent: headache
+    examples: |
+      - my head hurts
+      - my head is hurting
+      - i have a headache
+      - i am having pain in forehead
+      - i have head pain
+      - pain in head
+
+  - intent: migrane
+    examples: |
+      - I have pain only on one side of my head
+      - It hurts only on one side
+      - i have a migrane 
+      - migrane headache
+      - migrane
+
+  - intent: cluster_headache
+    examples: |
+      - I'm having pain near my eyes
+      - i have a cluster ache
+      - cluster headache
+      - cluster
+
+  - intent: tension_headache
+    examples: |
+      - It hurts near the back of my head
+      - It hurst on the back side
+      - Its hurtin around the head
+      - i'm having pain around the head
+      - i have tension pain
+      - tension headache
+      - tension
+
+  - intent: cough
+    examples: |
+      - I have a cough
+      - I'm sneezing a lot
+      - I have a sore throat
+
+  - intent: cold_sym
+    examples: |
+      - My nose is choked
+      - My chest is aching
+      - My nose is itching
+      - My throat is itching
+
+# Above lines are new
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - who are you
+
+  - intent: med_not_helped
+    examples: |
+      - No, i am still not felling better after having benadryl.
+      - No, i am still not felling better after having crocin.
+      - i am not feeling better
+      - medicine did not helped me
+      - i am not feeling well
+
+  - intent: med_helped
+    examples: |
+      - medicine helped me
+      - i am feeling better now
+      - it was good medicine
+      - feeling good
+      - i am feeling better
+
+  - intent: not_well
+    examples: |
+      - I am not feeling well
+      - i feel sick
+      - i am sick
+      - i am not well
+
+  - intent: well
+    examples: |
+      - i feel fine
+      - i am feeling fine
+      - i feel great
+      - i feel awesome
+
+  - intent: fever_sym
+    examples: |
+      - My body temperature has raised
+      - I am shivering
+      - I am feeling weak
+      - I have weakness in my body
+      - i am having fever
+      - fever
+
+  - intent: fracture_sym
+    examples: |
+      - my hand is aching
+      - my leg is aching
+      - i have pain in hand
+      - my hand is paining
+      - my joint is aching
+
+  - intent: fracture_details
+    examples: |
+      - it is a mild ache
+      - yes there is a swelling
+      - yes there is a physical deformity
+      - yes it is bleeding
+
+  - intent: fracture_accepted
+    examples: |
+      - yes i think it is fracture
+      - yes it is hurting
+      - it is bleeding
+      - blood is coming out
