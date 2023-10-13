@@ -13,7 +13,7 @@ def home():
 def get_bot_response():
     msg = request.args.get('msg')
     r=requests.post('http://localhost:5002/webhooks/rest/webhook',json={"message":msg})
-    print('Bot says, ',end=' ')
+    print('Bot says Bye, ',end=' ')
     response=''
     for i in r.json():
         response+=i['text']
